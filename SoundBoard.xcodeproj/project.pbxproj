@@ -13,6 +13,7 @@
 		E340F8292278F08F00215A25 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E340F8272278F08F00215A25 /* SoundBoard.xcdatamodeld */; };
 		E340F82B2278F09100215A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E340F82A2278F09100215A25 /* Assets.xcassets */; };
 		E340F82E2278F09100215A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E340F82C2278F09100215A25 /* LaunchScreen.storyboard */; };
+		E340F8362278F7D200215A25 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340F8352278F7D200215A25 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E340F82A2278F09100215A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E340F82D2278F09100215A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E340F82F2278F09100215A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E340F8352278F7D200215A25 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E340F8202278F08F00215A25 /* AppDelegate.swift */,
 				E340F8222278F08F00215A25 /* ViewController.swift */,
 				E340F8242278F08F00215A25 /* Main.storyboard */,
+				E340F8352278F7D200215A25 /* SoundViewController.swift */,
 				E340F82A2278F09100215A25 /* Assets.xcassets */,
 				E340F82C2278F09100215A25 /* LaunchScreen.storyboard */,
 				E340F82F2278F09100215A25 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E340F8362278F7D200215A25 /* SoundViewController.swift in Sources */,
 				E340F8292278F08F00215A25 /* SoundBoard.xcdatamodeld in Sources */,
 				E340F8232278F08F00215A25 /* ViewController.swift in Sources */,
 				E340F8212278F08F00215A25 /* AppDelegate.swift in Sources */,
@@ -295,7 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrivera.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,7 +317,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jrivera.SoundBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
